@@ -1,0 +1,68 @@
+import '../models/products.dart';
+
+List<Product> Products = [
+  Product(
+    name: "Tractor",
+    description: "The 5D series tractors are multi utility in nature,efficient in both agricultural applications as well as heavy duty haulage. These tractors offer higher comfort in terms of wider operator station,and lower maintenance cost.",
+    image: 'lib/images/tractor.jpg',
+    price: 1100.00,
+    unit: 'day(s)',
+    rating: 4.35,
+  ),
+  Product(
+    name: "Fresh Fruit",
+    description: "Fruit and vegetables should be an important part of your daily diet. They are naturally good and contain vitamins and minerals that can help to keep you healthy. They can also help protect against some diseases.",
+    image: 'lib/images/fruit.jpg',
+    price: 9.99,
+    unit: 'Kg',
+    rating: 3.80,
+  ),
+  Product(
+    name: "Drones",
+    description: "They are used for turning over and breaking up the soil, preparing it for planting.Planters are used for precise seed placement and spacing during planting.Seed drills are used for planting seeds in rows with consistent spacing.Combines are used for harvesting crops like wheat and soybeans.",
+    image: 'lib/images/M8.jpeg',
+    price: 1100.00,
+    unit: 'Itm(s)',
+    rating: 4.24,
+  ),
+  Product(
+    name: "Tomato",
+    description: "Tomato is a valuable raw material used for processed products such as juice, puree, and paste, ketchup/sauce, and canned whole. The recent scientific advances have revolutionised tomato processing industries.",
+    image: 'lib/images/tomato.jpg',
+    price: 10.10,
+    unit: 'Kg',
+    rating: 6.30,
+  ),
+  Product(
+    name: "Gardener's Rake",
+    description: "A general purpose or agricultural tool, for beneficiary distributions. Forged iron tools, strong and durable.Local customs and basic tool shapes vary worldwide. Check the appropriateness of the tool before supplying. The way in which the tool head is secured to the handle also varies ",
+    image: 'lib/images/rake.jpg',
+    price: 8.00,
+    unit: 'Pcs',
+    rating: 4.75,
+  ),
+  Product(
+    name: "Seeds",
+    description: "he seed is the embryonic stage of the plant life cycle. Most seeds consist of three parts: embryo, endosperm, and seed coat. The embryo is a tiny plant that has a root, a stem, and one or more leaves. The endosperm is the nutritive tissue of the seed, often a combination of starch, oil, and protein.",
+    image: 'lib/images/seeds.jpg',
+    price: 14.10,
+    unit: 'Kg',
+    rating: 5.30,
+  ),
+  Product(
+    name: "Shovel",
+    description: "Most shovels are hand tools consisting of a broad blade fixed to a medium-length handle. Shovel blades are usually made of sheet steel or hard plastics and are very strong. Shovel handles are usually made of wood (especially specific varieties such as ash or maple) or glass-reinforced plastic (fiberglass).",
+    image: 'lib/images/shovel.jpg',
+    price: 12.10,
+    unit: 'pcs',
+    rating: 7.30,
+  ),
+  Product(
+    name: "Planters ",
+    description: "They are used for turning over and breaking up the soil, preparing it for planting.Planters are used for precise seed placement and spacing during planting.Seed drills are used for planting seeds in rows with consistent spacing.Combines are used for harvesting crops like wheat and soybeans.",
+    image: 'lib/images/M10.jpeg',
+    price: 600.00,
+    unit: 'Itm(s)',
+    rating: 4.70,
+  ),
+];
